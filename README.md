@@ -1,17 +1,18 @@
 # Lotto numbers
 
-Let's create a `LuckyNumbers` component.
+Let's create a Lottery!
 
-![example](example.gif)
+## Rules
 
-It should display 2 buttons.
+- Your page should display 2 buttons
+- Use class based components for this one!
+- When you click (Show me lucky numbers), 6 numbers between 1 and 49 should be generated and displayed. All of the 6 numbers must be unique.
+- In addition one extra number between 1 and 10 should be generated and displayed
+- Every time you click the button a new set of lucky numbers should be generated and displayed.
+- Clicking on the Reset button should hide all the numbers
 
-On click on one of them (Show me lucky numbers), 6 numbers between 1 and 49 should be generated and displayed. All of the 6 numbers must be unique.
-
-In addition one number between 1 and 10 should be generated and displayed. Every time you click the button a new set of lucky numbers should be generated and displayed.
+![Animated Example](example.gif)
 
 ![Example with lucky numbers displayed](example-lucky-numbers.png)
-
-On clicking on the Reset button all numbers should be hidden.
 
 ![Example with no numbers displayed](example-no-numbers.png)
